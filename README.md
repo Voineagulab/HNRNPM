@@ -99,8 +99,8 @@ listed in the table above did not produce submitted material.
 
 ## Software
 
-Read alignment and quantification used nf-core/rnaseq 3.11.1 and a fork of nf-core/circrna
-(`WalshKieran/circrna`) under Nextflow 22.10.7 on the UNSW Katana HPC, with STAR 2.7.9a.
+Read alignment and quantification used nf-core/rnaseq 3.11.1 and nf-core/circrna under
+Nextflow 22.10.7 on the UNSW Katana HPC, with STAR 2.7.9a.
 circRNAs were called as the intersection of CIRCexplorer2 and CIRIquant 1.1.2, and BSJ and FSJ
 counts were taken from the CIRIquant GTF attributes. Differential alternative splicing used
 rMATS-turbo 4.3.0 (JCEC). Downstream analysis used R 4.3.3 with limma, edgeR, clusterProfiler
